@@ -75,10 +75,6 @@ nav a {
     width: 100%;
 }
 
-.header * {
-    background-color: rgba(0, 0, 0, 0);
-}
-
 .inner-header {
     margin-top: -43px;
 }
@@ -103,11 +99,8 @@ nav {
 }
 
 .doctor-profile {
-    width: 10%;
     margin-top: 20px;
     display: inline-block;
-    margin: 2%;
-    padding: 2%;
 }
 
 h1 {
@@ -178,14 +171,16 @@ h1 {
 
 .serviciosturisticos {
     text-align: center;
-    padding-right: 10%;
 }
 
 .serviciosmedicos {
     text-align: center;
-    padding-right: 10%;
 }
 
 .contact-form {
     text-align: center;
+}
+
+.general-picture {
+    height: 300px;
 }
