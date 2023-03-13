@@ -1,83 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-        <meta charset="UFT-8">
-        <meta name="viewport">
-        <title> Hotel </title>
-        <link rel="stylesheet" href="./CSS/style.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
-        rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
-        crossorigin="anonymous">
-   </head>
-   <body>
-      <header class="header">
-         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Top</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./Pages/about.html">Acerca de Nosotros</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Servicios
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="./Pages/serviciosturisticos.html">Turísticos</a></li>
-                      <li><a class="dropdown-item" href="./Pages/serviciosmedicos.html">Médicos</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="./Pages/contacto.html">Contacto</a>
-                   </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav>
-      </header>
-      <div class="home-banner">
-        <img id="home-banner" src="./Images/Bannerinicio.jpg">
-      </div>
-     <center>
-        <div> 
-          <div class="service-icons col-3">
-           <img src="./Images/atencion.svg"><p> Flexibilidad </p>
+
+<head>
+  <meta charset="UFT-8">
+  <meta name="viewport">
+  <title> Hotel </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Top</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Pages/about.html">Acerca de Nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Servicios
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./Pages/serviciosturisticos.html">Turísticos</a></li>
+                <li><a class="dropdown-item" href="./Pages/serviciosmedicos.html">Médicos</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
         </div>
-        <div class="service-icons col-3"> <img src="./Images/ahorro.svg"> <p> Ahorros adicionales </p> </div> 
-        <div class="service-icons col-3"> <img src="./Images/ofertas.svg"> <p> Ofertas especiales </p> </div>
-       </div> </center>
-       <div class="video">
-        <center><video autoplay muted loop>
-            <source src="./Images/cenotevideo.mp4" type="video/mp4">
-          </video></center>
-       </div>
-       <h1> <center> <strong> <b> Descubre Mérida </b> </strong> </center> </h1>
-         <div class="container-fluid"> 
-            <div class="descubre-merida-image"> <img src="Images/lugares.jpg" height="300" width="450"> <p> ¿Qué hacer? </p></div>
-            <div class="descubre-merida-image"> <img src="Images/restaurantes.jpg" height="300" width="450"> <p> ¿Dónde comer? </p> </div>
-            <div class="descubre-merida-image"> <img src="Images/eventos.jpg" height="300" width="450"> <p> Eventos </p> </div>
-         </div>
-         <footer class="footer">
-            <p align="right"> Tel. 9999 55 55 55 </p>
-            <p align="right"> Email. contacto@hotel.com </p>
-            <p align="right"> Dirección. calle 55 #555A Ciudad, Estado, México </p>
-            <footer class="footer-map">
-                <center><div class="location-map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.0950819205177!2d-89.63414468452075!3d20.988825394515015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5673fb06c80eaf%3A0xe94a60d03ea64005!2sLa%20casa%20del%20turix!5e0!3m2!1sen!2smx!4v1661799329318!5m2!1sen!2smx" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </center></div>
-            </footer>
-         </footer>
-         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
-         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" 
-         crossorigin="anonymous"></script>
-    </body>
+      </div>
+    </nav>
+  </header>
+  <div class="home-banner">
+    <img id="home-banner" src="./Images/Bannerinicio.jpg">
+  </div>
+    <div class="container-fluid">
+      <div class="service-icons col-3">
+        <img src="./Images/atencion.svg">
+        <p> Flexibilidad </p>
+      </div>
+      <div class="service-icons col-3">
+        <img src="./Images/ahorro.svg">
+        <p> Ahorros adicionales </p>
+      </div>
+      <div class="service-icons col-3">
+        <img src="./Images/ofertas.svg">
+        <p> Ofertas especiales </p>
+      </div>
+    </div>
+  <div class="video">
+    <video autoplay muted loop>
+        <source src="./Images/cenotevideo.mp4" type="video/mp4">
+      </video>
+  </div>
+  <div class="title">
+    <h1>
+      Descubre Mérida
+    </h1>
+  </div>
+  <div>
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/chichenitza.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Lugares para ver</h5>
+            <p>Somos hogar de una de las 7 Maravillas del Mundo</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/ballet_folklorico_yucatan2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Eventos</h5>
+            <p>Música, danza y teatro, siempre hay algo para ver</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/restaurantes.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Gastronomía</h5>
+            <p>Disfruta tanto de la comida tradicional hasta la mejor cocina internacional</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="contact">
+    <p align="right"> Tel. 9999 55 55 55 </p>
+    <p align="right"> Email. contacto@hotel.com </p>
+    <p align="right"> Dirección. calle 55 #555A Ciudad, Estado, México </p>
+  </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
